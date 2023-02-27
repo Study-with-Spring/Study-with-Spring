@@ -17,9 +17,6 @@
 - 역할이 나뉘어 특정 서버만 증설하는 등의 효율적인 리소스 관리가 가능
 - WAS, DB 장애시, WEB 서버가 오류 화면 제공 가능
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1a25c447-4034-4cef-ad28-e3594bc4502f/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b72ba4a7-5601-4554-96a3-d17f5882378e/Untitled.png)
 
 **HTTP 요청, 응답 흐름 :**
 
