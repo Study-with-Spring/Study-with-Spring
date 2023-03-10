@@ -4,6 +4,7 @@
 
 즉, **공통 코드**에 대해서는 **Front Controller에서 처리**하고, 서로 다른 코드들만 각 Controller에서 처리할 수 있도록 한다.
 
+
 **DispatcherServlet (프론트 컨트롤러 역할)**
 
 - 서블릿으로 동작
@@ -12,6 +13,7 @@
 DispacherServlet.doDispatch() 동작 순서:
 
 핸들러 조회 → 핸들러 어댑터 조회 → 핸들러 어댑터 실행 → 핸들러 실행 → ModelAndView 반환 → viewResolver 호출 → View 반환 → 뷰 렌더링
+
 
 ## 스프링 부트가 자주 사용하는 핸들러 매핑, 어댑터
 
@@ -24,6 +26,7 @@ RequestMappingHandlerMapping : 애노테이션 기반
 ********************************HandlerAdapter :********************************
 
 RequestMappingHandlerAdapter : 애노테이션 기반
+
 
 **********************뷰 리졸버 :**********************
 
