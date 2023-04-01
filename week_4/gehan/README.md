@@ -3,7 +3,7 @@
 ---
 
 ### 1. 로깅
-
+ 
 - System.out.println() 대신 로깅 라이브러리를 사용
 - SLF4J : Logback, log4J, log6j 를 모두 통합한 것
 - SLF4J(인터페이스) → Logback(구현체)
