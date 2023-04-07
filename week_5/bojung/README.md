@@ -73,3 +73,15 @@ init() 함수에 어노테이션을 추가한다.
 @Validated :
 
 검증이 필요한 메서드 파라미터 가장 앞에 어노테이션을 추가하면 자동으로 Validator가 추가된다.
+
+---
+
+**Bean** **************************Validation With Annotation**************************
+
+Bean validation을 활용하면 애노테이션 하나로 검증로직을 편리하게 작성할 수 있다.
+
+`@NotBlank` `@NotNull` `@Range(min, max)` `@Max`
+
+SpringBoot가 spring-boot-starter-validation 라이브러리를 넣으면 자동으로 Bean Validator를 인지하고 스프링에 통합한다.
+
+또한 스프링부트는 자동으로 `LocalValidatorFactoryBean`를 글로벌 Validator로 등록한다. 이 Validator는 @NotNull같은 애노테이션을 보고 검증을 수행한다. 따라서 개발자는 Validator 이용 시 `@Valid` 또는 `@Validated` 만 적용하면 된다.
