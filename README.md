@@ -46,3 +46,4 @@
 |3주차|MVC 구조|MVC 구조 및 흐름 이해|
 |4주차|스프링 기능|요청 매핑 및 메시지|
 |5주차|Validation|Validation & Bean Validation 종류|
+|6주차|로그인 처리|쿠키, 세션 & 필터, 인터셉트|
